@@ -10,10 +10,10 @@ function App() {
 
 	useEffect(() => {
 		tg.ready();
-	}, []);
+	});
 
 	return (
-		<div className='App'>
+		<div>
 			<Header />
 			{/* <Routes>
 				<Route index element={<ProductList />} />
