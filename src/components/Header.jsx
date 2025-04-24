@@ -9,10 +9,8 @@ function Header() {
 		<nav className='green darken-1 nav-extended'>
 			<div className='container'>
 				<div className='nav-wrapper'>
-					
-						RECIPE
-					
-                    <button onClick={onClose}>Close</button>
+					RECIPE TEST
+					<button onClick={onClose}>Close</button>
 					<h4>username: {user?.username}</h4>
 					<h4>id: {user?.id}</h4>
 					<h6>first_name: {user?.first_name}</h6>
