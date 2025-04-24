@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import { viewport, init, isTMA } from '@telegram-apps/sdk';
+import { viewport, init, isTMA } from '@telegram-apps/sdk-react';
 
 import { useTelegram } from './hooks/useTelegram';
 

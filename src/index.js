@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import  {useViewport} from '@telegram-apps/sdk-react';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
