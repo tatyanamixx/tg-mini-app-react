@@ -25,6 +25,13 @@ function App() {
 
 				if (viewport.requestFullscreen.isAvailable()) {
 					await viewport.requestFullscreen();
+					console.log(viewport.safeAreaInsets());
+				}
+				if (viewport.bindCssVars.isAvailable()) {
+					viewport.bindCssVars();
+					console.log(viewport.safeAreaInsets());
+					console.log(viewport.contentSafeAreaInsets());
+					viewport.isCssVarsBound(); // true
 				}
 			}
 		}

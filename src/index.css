@@ -14,14 +14,6 @@ body {
 	color: var(--tg-theme-text-color);
 }
 
-.wrapper {
-  padding-top: calc(var(--tg-safe-area-inset-top, 0px) + var(--tg-content-safe-area-inset-top));
-  padding-right: var(--tg-safe-area-inset-right, 0px);
-  padding-bottom: var(--tg-safe-area-inset-bottom, 0px);
-  padding-left: var(--tg-safe-area-inset-left, 0px);
-  }
-  
-
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
